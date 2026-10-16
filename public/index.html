@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pair Pi Voice</title>
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+  <main>
+    <section class="card" aria-labelledby="title">
+      <p class="eyebrow">Pi Voice</p>
+      <h1 id="title">Pair a native client</h1>
+      <p>Enter this exact gateway origin and one-use code in the Pi Voice app. Opening this page does not create a device, request microphone access, or start a provider session.</p>
+
+      <dl>
+        <div>
+          <dt>Gateway origin</dt>
+          <dd><code id="origin">Unavailable</code></dd>
+        </div>
+        <div>
+          <dt>One-use pairing code</dt>
+          <dd><code id="pairingCode">Unavailable</code></dd>
+        </div>
+      </dl>
+
+      <button id="copy" type="button" disabled>Copy setup details</button>
+      <p id="status" role="status" aria-live="polite">Use a fresh link from the gateway’s <code>--pair</code> command.</p>
+    </section>
+  </main>
+  <script type="module" src="/pairing.js"></script>
+</body>
+</html>

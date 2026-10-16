@@ -1,0 +1,27 @@
+{
+  "name": "pi-voice",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run build && node dist/src/cli.js",
+    "start": "npm run build && node dist/src/cli.js",
+    "build": "rm -rf dist && tsc -p tsconfig.json && mkdir -p dist/public && cp public/*.html public/*.css dist/public/",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "check:vendored-intercom": "node scripts/check-vendored-intercom.mjs",
+    "test:build": "rm -rf .test-dist && tsc -p tsconfig.json --outDir .test-dist && mkdir -p .test-dist/public && cp public/*.html public/*.css .test-dist/public/",
+    "test": "npm run test:build && PI_VOICE_TEST_PUBLIC_DIR=.test-dist/public node --test .test-dist/test/*.test.js"
+  },
+  "dependencies": {
+    "pi-intercom": "file:vendor/pi-intercom/pi-intercom-0.17.3.tgz",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  }
+}

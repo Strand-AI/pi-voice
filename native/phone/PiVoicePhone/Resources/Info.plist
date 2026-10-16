@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>CFBundleDisplayName</key><string>Pi Voice</string>
+  <key>CFBundleExecutable</key><string>$(EXECUTABLE_NAME)</string>
+  <key>CFBundleIdentifier</key><string>ai.strand.pivoice</string>
+  <key>CFBundleName</key><string>PiVoicePhone</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleShortVersionString</key><string>0.1</string>
+  <key>CFBundleVersion</key><string>1</string>
+  <key>CFBundleURLTypes</key><array><dict>
+    <key>CFBundleURLName</key><string>ai.strand.pivoice.navigation</string>
+    <key>CFBundleURLSchemes</key><array><string>pivoice</string></array>
+  </dict></array>
+  <key>LSRequiresIPhoneOS</key><true/>
+  <key>NSMicrophoneUsageDescription</key><string>Pi Voice uses the microphone only after you tap Start, to speak with the selected Pi agent.</string>
+  <key>NSSupportsLiveActivities</key><true/>
+  <key>UIBackgroundModes</key><array>
+    <string>audio</string>
+    <string>voip</string>
+  </array>
+  <key>UIApplicationSceneManifest</key><dict><key>UIApplicationSupportsMultipleScenes</key><false/></dict>
+  <key>UILaunchScreen</key><dict/>
+  <key>UISupportedInterfaceOrientations</key><array><string>UIInterfaceOrientationPortrait</string></array>
+</dict></plist>

@@ -1,0 +1,143 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 60;
+ objects = {
+
+/* Begin PBXBuildFile section */
+ A10000000000000000000001 /* PiVoicePhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* PiVoicePhoneApp.swift */; };
+ A10000000000000000000002 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* AppModel.swift */; };
+ A10000000000000000000003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* ContentView.swift */; };
+ A10000000000000000000004 /* GatewayVoiceTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* GatewayVoiceTransport.swift */; };
+ A10000000000000000000005 /* SimulatorVoiceTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* SimulatorVoiceTransport.swift */; };
+ A10000000000000000000006 /* PiVoiceCore in Frameworks */ = {isa = PBXBuildFile; productRef = A90000000000000000000001 /* PiVoiceCore */; };
+ A10000000000000000000007 /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = A90000000000000000000002 /* WebRTC */; };
+ A10000000000000000000008 /* KeychainDeviceCredentialStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* KeychainDeviceCredentialStore.swift */; };
+ A10000000000000000000009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* Assets.xcassets */; };
+ A10000000000000000000010 /* PiVoiceActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* PiVoiceActivityAttributes.swift */; };
+ A10000000000000000000011 /* PiVoiceLiveActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* PiVoiceLiveActivityManager.swift */; };
+ A10000000000000000000012 /* PiVoiceActivityIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* PiVoiceActivityIntents.swift */; };
+ A10000000000000000000013 /* PiVoiceVisuals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* PiVoiceVisuals.swift */; };
+ A10000000000000000000017 /* CallKitAudioSessionOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* CallKitAudioSessionOwner.swift */; };
+ A10000000000000000000018 /* PiVoiceCallKitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000017 /* PiVoiceCallKitController.swift */; };
+ A10000000000000000000019 /* VisualEnvelope.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000018 /* VisualEnvelope.swift */; };
+ B10000000000000000000001 /* PiVoicePhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* PiVoicePhoneUITests.swift */; };
+ C10000000000000000000001 /* PiVoiceActivityWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000001 /* PiVoiceActivityWidget.swift */; };
+ C10000000000000000000002 /* PiVoiceActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* PiVoiceActivityAttributes.swift */; };
+ C10000000000000000000003 /* PiVoiceActivityWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C20000000000000000000000 /* PiVoiceActivityWidget.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+ C10000000000000000000004 /* PiVoiceActivityIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* PiVoiceActivityIntents.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+ B60000000000000000000001 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = A60000000000000000000001 /* Project object */; proxyType = 1; remoteGlobalIDString = A50000000000000000000001; remoteInfo = PiVoicePhone; };
+ C60000000000000000000001 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = A60000000000000000000001 /* Project object */; proxyType = 1; remoteGlobalIDString = C50000000000000000000001; remoteInfo = PiVoiceActivityWidget; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+ A20000000000000000000000 /* PiVoicePhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = PiVoicePhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+ A20000000000000000000001 /* PiVoicePhoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiVoicePhoneApp.swift; sourceTree = "<group>"; };
+ A20000000000000000000002 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+ A20000000000000000000003 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+ A20000000000000000000004 /* GatewayVoiceTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatewayVoiceTransport.swift; sourceTree = "<group>"; };
+ A20000000000000000000005 /* SimulatorVoiceTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorVoiceTransport.swift; sourceTree = "<group>"; };
+ A20000000000000000000006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+ A20000000000000000000007 /* KeychainDeviceCredentialStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainDeviceCredentialStore.swift; sourceTree = "<group>"; };
+ A20000000000000000000008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+ B20000000000000000000001 /* PiVoicePhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiVoicePhoneUITests.swift; sourceTree = "<group>"; };
+ B20000000000000000000002 /* PiVoicePhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = PiVoicePhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+ A20000000000000000000009 /* PiVoiceActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiVoiceActivityAttributes.swift; sourceTree = "<group>"; };
+ A20000000000000000000010 /* PiVoiceLiveActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiVoiceLiveActivityManager.swift; sourceTree = "<group>"; };
+ A20000000000000000000011 /* PiVoiceActivityIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiVoiceActivityIntents.swift; sourceTree = "<group>"; };
+ A20000000000000000000012 /* PiVoiceVisuals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiVoiceVisuals.swift; sourceTree = "<group>"; };
+ A20000000000000000000016 /* CallKitAudioSessionOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallKitAudioSessionOwner.swift; sourceTree = "<group>"; };
+ A20000000000000000000017 /* PiVoiceCallKitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiVoiceCallKitController.swift; sourceTree = "<group>"; };
+ A20000000000000000000018 /* VisualEnvelope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEnvelope.swift; sourceTree = "<group>"; };
+ C20000000000000000000000 /* PiVoiceActivityWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PiVoiceActivityWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+ C20000000000000000000001 /* PiVoiceActivityWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiVoiceActivityWidget.swift; sourceTree = "<group>"; };
+ C20000000000000000000002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+ C70000000000000000000004 /* Embed App Extensions */ = {isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = ""; dstSubfolderSpec = 13; files = (C10000000000000000000003); name = "Embed App Extensions"; runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+ A30000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000006, A10000000000000000000007); runOnlyForDeploymentPostprocessing = 0; };
+ B30000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+ C30000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+ A40000000000000000000000 = {isa = PBXGroup; children = (A40000000000000000000001, B40000000000000000000001, C40000000000000000000001, A40000000000000000000004); sourceTree = "<group>"; };
+ A40000000000000000000001 /* PiVoicePhone */ = {isa = PBXGroup; path = PiVoicePhone; sourceTree = "<group>"; children = (A40000000000000000000002, A40000000000000000000003, A40000000000000000000005, A40000000000000000000006, A40000000000000000000008); };
+ A40000000000000000000002 /* App */ = {isa = PBXGroup; path = App; sourceTree = "<group>"; children = (A20000000000000000000001, A20000000000000000000002, A20000000000000000000003, A20000000000000000000010, A20000000000000000000012, A20000000000000000000018); };
+ A40000000000000000000003 /* Transport */ = {isa = PBXGroup; path = Transport; sourceTree = "<group>"; children = (A20000000000000000000004, A20000000000000000000005, A20000000000000000000007); };
+ A40000000000000000000004 /* Products */ = {isa = PBXGroup; name = Products; sourceTree = "<group>"; children = (A20000000000000000000000, B20000000000000000000002, C20000000000000000000000); };
+ A40000000000000000000005 /* Resources */ = {isa = PBXGroup; path = Resources; sourceTree = "<group>"; children = (A20000000000000000000006, A20000000000000000000008); };
+ A40000000000000000000008 /* CallKit */ = {isa = PBXGroup; path = CallKit; sourceTree = "<group>"; children = (A20000000000000000000016, A20000000000000000000017); };
+ A40000000000000000000006 /* Activity */ = {isa = PBXGroup; path = Activity; sourceTree = "<group>"; children = (A20000000000000000000009, A20000000000000000000011); };
+ B40000000000000000000001 /* PiVoicePhoneUITests */ = {isa = PBXGroup; path = PiVoicePhoneUITests; sourceTree = "<group>"; children = (B20000000000000000000001); };
+ C40000000000000000000001 /* PiVoiceActivityWidget */ = {isa = PBXGroup; path = PiVoiceActivityWidget; sourceTree = "<group>"; children = (C20000000000000000000001, C20000000000000000000002); };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+ A50000000000000000000001 /* PiVoicePhone */ = {isa = PBXNativeTarget; buildConfigurationList = A80000000000000000000002; buildPhases = (A70000000000000000000001, A30000000000000000000001, A70000000000000000000002, C70000000000000000000004); buildRules = (); dependencies = (C90000000000000000000001); name = PiVoicePhone; packageProductDependencies = (A90000000000000000000001, A90000000000000000000002); productName = PiVoicePhone; productReference = A20000000000000000000000; productType = "com.apple.product-type.application"; };
+ B50000000000000000000001 /* PiVoicePhoneUITests */ = {isa = PBXNativeTarget; buildConfigurationList = B80000000000000000000001; buildPhases = (B70000000000000000000001, B30000000000000000000001, B70000000000000000000002); buildRules = (); dependencies = (B90000000000000000000001); name = PiVoicePhoneUITests; packageProductDependencies = (); productName = PiVoicePhoneUITests; productReference = B20000000000000000000002; productType = "com.apple.product-type.bundle.ui-testing"; };
+ C50000000000000000000001 /* PiVoiceActivityWidget */ = {isa = PBXNativeTarget; buildConfigurationList = C80000000000000000000001; buildPhases = (C70000000000000000000001, C30000000000000000000001, C70000000000000000000002); buildRules = (); dependencies = (); name = PiVoiceActivityWidget; packageProductDependencies = (); productName = PiVoiceActivityWidget; productReference = C20000000000000000000000; productType = "com.apple.product-type.app-extension"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+ A60000000000000000000001 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 2600; LastUpgradeCheck = 2600; TargetAttributes = {A50000000000000000000001 = {CreatedOnToolsVersion = 26.0; }; B50000000000000000000001 = {CreatedOnToolsVersion = 27.0; TestTargetID = A50000000000000000000001; }; C50000000000000000000001 = {CreatedOnToolsVersion = 27.0; };};}; buildConfigurationList = A80000000000000000000001; compatibilityVersion = "Xcode 15.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = A40000000000000000000000; packageReferences = (A90000000000000000000003, A90000000000000000000004); productRefGroup = A40000000000000000000004; projectDirPath = ""; projectRoot = ""; targets = (A50000000000000000000001, B50000000000000000000001, C50000000000000000000001); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+ A70000000000000000000002 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000009); runOnlyForDeploymentPostprocessing = 0; };
+ B70000000000000000000002 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+ C70000000000000000000002 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+ A70000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001, A10000000000000000000002, A10000000000000000000003, A10000000000000000000004, A10000000000000000000005, A10000000000000000000008, A10000000000000000000010, A10000000000000000000011, A10000000000000000000012, A10000000000000000000013, A10000000000000000000017, A10000000000000000000018, A10000000000000000000019); runOnlyForDeploymentPostprocessing = 0; };
+ B70000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B10000000000000000000001); runOnlyForDeploymentPostprocessing = 0; };
+ C70000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (C10000000000000000000001, C10000000000000000000002, C10000000000000000000004); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+ A81000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_VERSION = 6.0;}; name = Debug; };
+ A81000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_VERSION = 6.0;}; name = Release; };
+ A81000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = PiVoicePhone/Resources/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; MARKETING_VERSION = 0.1; PRODUCT_BUNDLE_IDENTIFIER = ai.strand.pivoice; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_STRICT_CONCURRENCY = complete; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = 1;}; name = Debug; };
+ A81000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = PiVoicePhone/Resources/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; MARKETING_VERSION = 0.1; PRODUCT_BUNDLE_IDENTIFIER = ai.strand.pivoice; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_STRICT_CONCURRENCY = complete; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = 1; VALIDATE_PRODUCT = YES;}; name = Release; };
+ B81000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = ai.strand.pivoice.uitests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_STRICT_CONCURRENCY = complete; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = 1; TEST_TARGET_NAME = PiVoicePhone;}; name = Debug; };
+ B81000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = ai.strand.pivoice.uitests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_STRICT_CONCURRENCY = complete; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = 1; TEST_TARGET_NAME = PiVoicePhone;}; name = Release; };
+ C81000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {APPLICATION_EXTENSION_API_ONLY = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = PiVoiceActivityWidget/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../../Frameworks"; MARKETING_VERSION = 0.1; PRODUCT_BUNDLE_IDENTIFIER = ai.strand.pivoice.activity; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SKIP_INSTALL = YES; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_STRICT_CONCURRENCY = complete; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = 1;}; name = Debug; };
+ C81000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {APPLICATION_EXTENSION_API_ONLY = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = PiVoiceActivityWidget/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../../Frameworks"; MARKETING_VERSION = 0.1; PRODUCT_BUNDLE_IDENTIFIER = ai.strand.pivoice.activity; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SKIP_INSTALL = YES; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_STRICT_CONCURRENCY = complete; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = 1; VALIDATE_PRODUCT = YES;}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+ A80000000000000000000001 = {isa = XCConfigurationList; buildConfigurations = (A81000000000000000000001, A81000000000000000000002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+ A80000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = (A81000000000000000000003, A81000000000000000000004); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+ B80000000000000000000001 = {isa = XCConfigurationList; buildConfigurations = (B81000000000000000000001, B81000000000000000000002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+ C80000000000000000000001 = {isa = XCConfigurationList; buildConfigurations = (C81000000000000000000001, C81000000000000000000002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+
+/* Begin PBXTargetDependency section */
+ B90000000000000000000001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = A50000000000000000000001 /* PiVoicePhone */; targetProxy = B60000000000000000000001 /* PBXContainerItemProxy */; };
+ C90000000000000000000001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = C50000000000000000000001 /* PiVoiceActivityWidget */; targetProxy = C60000000000000000000001 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCLocalSwiftPackageReference section */
+ A90000000000000000000003 /* Local PiVoiceCore */ = {isa = XCLocalSwiftPackageReference; relativePath = .; };
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+ A90000000000000000000004 /* WebRTC */ = {isa = XCRemoteSwiftPackageReference; repositoryURL = "https://github.com/stasel/WebRTC.git"; requirement = {kind = upToNextMajorVersion; minimumVersion = 154.0.0;}; };
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+ A90000000000000000000001 /* PiVoiceCore */ = {isa = XCSwiftPackageProductDependency; package = A90000000000000000000003; productName = PiVoiceCore; };
+ A90000000000000000000002 /* WebRTC */ = {isa = XCSwiftPackageProductDependency; package = A90000000000000000000004; productName = WebRTC; };
+/* End XCSwiftPackageProductDependency section */
+ };
+ rootObject = A60000000000000000000001;
+}

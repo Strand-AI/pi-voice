@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.test-dist/
+.pi-loop.json.lock
+.env
+.pi-companion/
+.DS_Store
